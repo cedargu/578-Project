@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TrojaNow</string>
+
+    <string name="trojaNow">TrojaNow</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_prompt">Enter email address</string>
+    <string name="pwd_prompt">Enter password</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="forget_pwd"><a href="">forget password?</a></string>
+
+    <string name="title_activity_post_wall">PostWall</string>
+    <string name="title_activity_comment">Comments</string>
+
+    <string name="create_post">Create Post</string>
+    <string name="my_profile">My Profile</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_create_post">CreatePostActivity</string>
+    <string name="title_activity_my_posts">MyPosts</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_tab_view">TabView</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_send_message">SendMessageActivity</string>
+    <string name="title_activity_user_post">UserPostActivity</string>
+    <string name="title_activity_messenger">MessengerActivity</string>
+
+
+</resources>

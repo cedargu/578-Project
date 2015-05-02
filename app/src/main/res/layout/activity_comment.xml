@@ -1,0 +1,186 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView"
+    android:text="@string/title_activity_comment"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="40sp"
+    android:gravity="center_horizontal"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+    <!--android:background="#ffffff">-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jimmy"
+                android:ems="4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:ems="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tommy"
+                android:ems="4"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's gooooooooooooooooo"
+            android:paddingLeft="20dp"
+            android:background="#949494"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tommy"
+                android:ems="4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:ems="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jimmy"
+                android:ems="4"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GO! GET! KILL!"
+            android:paddingLeft="20dp"
+            android:background="#949494"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jimmy"
+                android:ems="4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:ems="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tommy"
+                android:ems="4"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's gooooooooooooooooo"
+            android:paddingLeft="20dp"
+            android:background="#949494"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jimmy"
+                android:ems="4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to"
+                android:ems="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tommy"
+                android:ems="4"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's gooooooooooooooooo"
+            android:paddingLeft="20dp"
+            android:background="#949494"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="reply to Jimmy:"
+    android:layout_marginTop="40dp"/>
+<EditText
+    android:id="@+id/cmnt_msg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Edit Text Here "
+    android:layout_marginTop="20dp"/>
+<Button
+    android:id="@+id/sendbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Send"/>
+
+
+</LinearLayout>
